@@ -1,0 +1,10 @@
+build/
+dist/
+out/
+.vs/
+.vscode/
+*.user
+*.suo
+*.log
+config.ini
+CMakeUserPresets.json
