@@ -16,7 +16,7 @@ find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Network OpenGLWidgets)
 # ---- FFmpeg ----
 set(FFMPEG_ROOT "$ENV{FFMPEG_ROOT}" CACHE PATH "FFmpeg install root")
 if(NOT FFMPEG_ROOT)
-    set(FFMPEG_ROOT "E:/deepseek/tools/ffmpeg-9.0.2-full_build-shared")
+    set(FFMPEG_ROOT "C:/ffmpeg")
 endif()
 
 find_path(FFMPEG_INCLUDE_DIR libavcodec/avcodec.h HINTS "${FFMPEG_ROOT}/include")

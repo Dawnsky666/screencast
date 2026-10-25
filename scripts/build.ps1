@@ -1,6 +1,6 @@
 param(
-    [string]$QtRoot = "E:/deepseek/tools/Qt/6.8.3/msvc2022_64",
-    [string]$FFmpegRoot = "E:/deepseek/tools/ffmpeg-9.0.2-full_build-shared",
+    [string]$QtRoot = "C:/Qt/6.8.3/msvc2022_64",
+    [string]$FFmpegRoot = "C:/ffmpeg",
     [string]$Configuration = "Release"
 )
 

@@ -90,6 +90,9 @@ cmake --build build --config Release
 
 产物在 `build/Release/ScreenCast.exe`，Qt 与 FFmpeg 的运行库由 CMake 后置步骤自动拷贝。
 
+> 上面的路径换成你本机的；也可以直接给脚本传参：
+> `scripts/build.ps1 -QtRoot <qt> -FFmpegRoot <ffmpeg>`，打包用 `scripts/package.ps1`。
+
 也可以直接跑 `scripts/build.ps1`。
 
 打包成可双击运行的 `dist/`（含 Qt / FFmpeg 运行库）：
